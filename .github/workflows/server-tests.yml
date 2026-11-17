@@ -28,7 +28,7 @@ jobs:
   test_server:
     runs-on: ubuntu-latest
     name: Jest e2e tests
-    timeout-minutes: 40
+    timeout-minutes: 20
 
     services:
       mysql:
